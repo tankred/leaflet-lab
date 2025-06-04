@@ -24,7 +24,7 @@ Tankred
 
 ## License
 
-Add link to license file for details
+[GNU GENERAL PUBLIC LICENSE](LICENSE)
 
 ## Acknowledgments
 

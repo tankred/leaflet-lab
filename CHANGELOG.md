@@ -8,6 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Released]
 
+## [0.2.1] - 2025-06-04
+### Added
+- A license file
+- leaflet lab index html
+
 ## [0.2.0] - 2020-11-06
 ### Added
 - A readme file
