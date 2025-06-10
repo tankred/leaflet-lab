@@ -11,7 +11,10 @@
      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
      crossorigin=""></script>
   <style>
-    #map { height: 180px; }
+    #map { 
+      width: 700px; 
+      height: 450px;
+    }
   </style>
 </head>
 
@@ -20,7 +23,7 @@
     <article>
       <header>
         <h1></h1>
-        <time datetime="2025-06-04">jun 6, 2025</time>
+        <time datetime="2025-06-10">jun 10, 2025</time>
       </header>
       <p></p>
       <div id="map"></div>
@@ -31,6 +34,15 @@
   </main>
   <script>
     var map = L.map('map').setView([51.505, -0.09], 13);
+    const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		maxZoom: 19,
+		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+	}).addTo(map);
+
+    const marker = L.marker([51.5, -0.09]).addTo(map)
+    const marker02 = L.marker([51.5, -0.06]).addTo(map)
+    const marker03 = L.marker([51.506, -0.06]).addTo(map)
+    //map.on();
   </script>
 </body>
 </html>
