@@ -23,7 +23,7 @@
     <article>
       <header>
         <h1></h1>
-        <time datetime="2025-06-10">jun 10, 2025</time>
+        <time datetime="2025-10-23">Oct 23, 2025</time>
       </header>
       <p></p>
       <div id="map"></div>
@@ -43,6 +43,12 @@
     const marker02 = L.marker([51.5, -0.06]).addTo(map)
     const marker03 = L.marker([51.506, -0.06]).addTo(map)
     //map.on();
+    var circle = L.circle([51.50, -0.06], {
+      color: 'red',
+      fillColor: '#f03',
+      fillOpacity: 0.5,
+      radius: 500
+    }).addTo(map);
   </script>
 </body>
 </html>
